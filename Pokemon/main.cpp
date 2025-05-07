@@ -6,6 +6,6 @@ int main() {
     cout << "Enter your name: ";
     cin >> player_name;
 
-    cout << "Great Start"<<player_name<<", ooks like you have understood the main() function properly now!";
+    cout << "Great Start, "<<player_name<< "Trainer!,  Looks like you’ve mastered the opening of every code adventure. Keep this up, and you’ll be a coding master in no time!";
     return 0;
 }
