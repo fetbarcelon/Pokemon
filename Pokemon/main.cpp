@@ -17,28 +17,23 @@ int main() {
 	cin >> choice;
 	cout << "\n";
 
-	// Pofessor Oak's intermediate dialogue
-	cout << "Well done, Trainer!\n";
-	cout << "But… wait, you think your journey ends with just choosing a Pokémon?";
-	cout << "No, no, no!";
-	cout << "You need to confirm your choice and see how the game reacts!";
+	switch (choice)
+	{
+	case 1:
+		std::cout << "Professor Oak: A fiery choice! Charmarder is your!" << std::endl;
+		break;
 
-	// Step 4: Confirm the Choice
-	if (choice == 1) {
-		cout << "You chose Bulbasaur! A wise choice.\n";
+	case 2: 
+		std::cout << "Professor Oak: A fine choice! Bulbasaur is always ready to grow on you!" << std::endl;
+		break;
+	case 3:
+		std::cout << "Professor Oak : Splendid!Squirtle will keep you cool under pressure!" << std::endl;
+		break;
+	default:
+		std::cout << "Professor Oak: Hmm, that doesn't seem right. Let me choose for you… Just kidding! Let's go with Pikachu, the surprise guest!" << std::endl;
+		break;
 	}
-	else if (choice == 2) {
-		cout << "You chose Charmander! A Fire choice.\n";
-	}
-	else if (choice == 3) {
-		cout << "You chose Squirtle! A cool choice.\n";
-	}
-	else if (choice == 4) {
-		cout << "You chose Pikachu! An Electric choice.\n";
-	}
-	else {
-		cout << "Invalid choice.Please restart the game.\n";
-	}
+	
 
 	// Pofessor Oak's Final Words
 	cout << "Ah, an excellent choice!\n";
