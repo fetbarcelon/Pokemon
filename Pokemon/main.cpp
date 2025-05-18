@@ -4,7 +4,7 @@ using namespace std;
 
 	//Step 1: Crear enum PokemonChoice
 enum PokemonChoice {
-	Bulbasaur = 1,
+	Bulbasaur,
 	Charmander,
 	Squirtle,
 	InvalidChoice
